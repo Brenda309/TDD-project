@@ -3,3 +3,10 @@ elsif n.negative? puts 'Math error!'
 else n * factorial(n - 1) end end
 
   def reverse(str) str.reverse end
+
+    def fizzbuzz(n) i
+      f (n % 3).zero? && (n % 5).zero?
+      'fizz' elsif (n % 5).zero?
+       'buzz' else n.to_s end
+       end
+      end
